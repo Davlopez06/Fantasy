@@ -10,6 +10,7 @@ namespace Fantasy.Backend.Controllers;
 public class CountriesController : ControllerBase
 {
     private readonly DataContext _context;
+
     public CountriesController(DataContext context)
     {
         _context = context;
